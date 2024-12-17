@@ -21,7 +21,7 @@ import random
 ## GLOBAL VARIABLES. I am a bad person and use globals. I'm sorry. ##
 #####################################################################
 
-from jax.config import config
+from jax import config
 config.update("jax_enable_x64", True)
 
 # To ensure reproducible results to help debugging, set seeds for randomness.
